@@ -1,0 +1,1332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		48368B9DC8B34903BDA85D62 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 53C84974C22B47C6ADD93168 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				F35C26BC79AB4BC39E8F6904 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		67164E938C4F4ED3BC0D0779 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 36B918B309344F4E94EEBC9E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A4C4B22ED16C44B384EC503D /* CMake Rules */,
+			);
+			dependencies = (
+				A29B9D2A9ED54DD6A80AEAF5 /* PBXTargetDependency */,
+				B3696855431D48FF9B123275 /* PBXTargetDependency */,
+				0659FE54A38C4DDA852D681E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		6BB0B33BE2D44BA68A4588F6 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 544A0408FDC14A349909788C /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				F8D57A22933D4379BD5287F4 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				3B0C644BFCBA4514A03FA80D /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		93A3D40A2D07400AA4FB9EFC /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0DD89B796A6A4AA0ABEACD35 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7A856E27C1044F099926C3D6 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00E0D8E8CE04406DA57AA994 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/objectVert.glsl */ = {isa = PBXBuildFile; fileRef = 9FB36F6DFBC8441CA27FBFFF /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/objectVert.glsl */; };
+		02ADB95D50CE4DEF82EEE812 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Program.h */ = {isa = PBXBuildFile; fileRef = 98CF036F23D7497C89318622 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Program.h */; };
+		04076FA8ED4141CE848E1546 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/WindowManager.h */ = {isa = PBXBuildFile; fileRef = A7BEB64FE34E4364ADA30A25 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/WindowManager.h */; };
+		0573F24F766843769F5EBD98 /* /usr/local/Cellar/glfw-3.2.1/src/internal.h */ = {isa = PBXBuildFile; fileRef = 12C09597C63B4701BC91B555 /* /usr/local/Cellar/glfw-3.2.1/src/internal.h */; };
+		0C762EFD29D741E38A7B5614 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = B0C16D5D9F954D91AE30968A /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_init.m */; };
+		10756A631DB444C7A03CA75C /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/stb_image.h */ = {isa = PBXBuildFile; fileRef = 39D5001369AB4265AC4BC3CD /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/stb_image.h */; };
+		225FCCF239364907BF441419 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/GLSL.h */ = {isa = PBXBuildFile; fileRef = 07B05E6ED6774770B3EEEC45 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/GLSL.h */; };
+		25197D2696844C5C87F4BC29 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = ECBD0E8347A44CC3A700E423 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_joystick.h */; };
+		3349A3ED46784006A883E927 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/billboardFrag.glsl */ = {isa = PBXBuildFile; fileRef = 05DEF17FD9D6409BBB2AD1B7 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/billboardFrag.glsl */; };
+		38906E9B17564A38869959E8 /* /usr/local/Cellar/glfw-3.2.1/debug/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 013170B1B64A489583BE38F0 /* /usr/local/Cellar/glfw-3.2.1/debug/src/glfw_config.h */; };
+		3BC781F341D944888CD9966A /* /usr/local/Cellar/glfw-3.2.1/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 10D4D24FA2DD4504BD07D052 /* /usr/local/Cellar/glfw-3.2.1/src/monitor.c */; };
+		3F2C0783E07E487192CAC667 /* /usr/local/Cellar/glfw-3.2.1/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = FE265542B543460C8F4AA007 /* /usr/local/Cellar/glfw-3.2.1/include/GLFW/glfw3.h */; };
+		46E288FEEC3A42248DACCA52 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/src/glad.c */ = {isa = PBXBuildFile; fileRef = D4F6813A786A47DA89FE81CE /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/src/glad.c */; };
+		568794B281234D19A6453948 /* /usr/local/Cellar/glfw-3.2.1/src/window.c */ = {isa = PBXBuildFile; fileRef = C243FC9B66E84ED9A064BF91 /* /usr/local/Cellar/glfw-3.2.1/src/window.c */; };
+		56C861B41D92498A8AFCF1AC /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/objectFrag.glsl */ = {isa = PBXBuildFile; fileRef = 9A85E827FBC8498384E8C19D /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/objectFrag.glsl */; };
+		5C484D2E232C4642B5DC7D2F /* /usr/local/Cellar/glfw-3.2.1/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 20B25CEB9B5E40D8861BD682 /* /usr/local/Cellar/glfw-3.2.1/src/CMakeLists.txt */; };
+		5F70148384F949ED9D885124 /* /usr/local/Cellar/glfw-3.2.1/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = B3E79D5675A9493391136299 /* /usr/local/Cellar/glfw-3.2.1/src/nsgl_context.h */; };
+		7299D137205C4FA7AEBB99EB /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/billboardVert.glsl */ = {isa = PBXBuildFile; fileRef = DBE0F12456F94094A93E8D77 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/billboardVert.glsl */; };
+		7939CFB73AB043F9940DDDB4 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include/glad/glad.h */ = {isa = PBXBuildFile; fileRef = 6EF61F39150A48E09A166D30 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include/glad/glad.h */; };
+		7D7E81A4E8054EB8924C88D6 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 141804453FF64298AF40BF27 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_platform.h */; };
+		818C78CC987F4A51B90F7966 /* /usr/local/Cellar/glfw-3.2.1/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 587EEA4A171A4C30B6ABB348 /* /usr/local/Cellar/glfw-3.2.1/src/nsgl_context.m */; };
+		84A0643A2BB94687A6A527CC /* /usr/local/Cellar/glfw-3.2.1/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = 29BF04F6243941BF8355C62F /* /usr/local/Cellar/glfw-3.2.1/src/posix_tls.h */; };
+		948810677DE645E0871BA959 /* /usr/local/Cellar/glfw-3.2.1/src/context.c */ = {isa = PBXBuildFile; fileRef = 712A680158C547EA99CED487 /* /usr/local/Cellar/glfw-3.2.1/src/context.c */; };
+		9AE4945A348E4008A9674B2F /* /usr/local/Cellar/glfw-3.2.1/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 474A8A8E857B4E06BF949FE6 /* /usr/local/Cellar/glfw-3.2.1/include/GLFW/glfw3native.h */; };
+		9D78ACD7D158499E972FB442 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Shape.h */ = {isa = PBXBuildFile; fileRef = 888A98E81CEC4B9C9B367961 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Shape.h */; };
+		A17EB19545E54042B7AE1FB7 /* /usr/local/Cellar/glfw-3.2.1/src/input.c */ = {isa = PBXBuildFile; fileRef = AACFF17BE4A742BF871CF38F /* /usr/local/Cellar/glfw-3.2.1/src/input.c */; };
+		A81EDDDA715F47408BBFBD40 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/GLSL.cpp */ = {isa = PBXBuildFile; fileRef = B4BF5572E3CF4F2B890B7860 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/GLSL.cpp */; };
+		AAEB22647E3E4494A6898DCB /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 44DC78A7FBC448ECA33E77EB /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_joystick.m */; };
+		AD350E9A700B4A2FB42F6A1F /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/billboardGeom.glsl */ = {isa = PBXBuildFile; fileRef = 4AFAB6D3B7BC4E719A15D4D3 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/billboardGeom.glsl */; };
+		ADA073A75FD6412EA38D3573 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Audio.h */ = {isa = PBXBuildFile; fileRef = 12060BD9ADD7494786CDDB8C /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Audio.h */; };
+		B38923A8E33A4FCE8F57669C /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 11F8CFF6FF4045DFAD90193B /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/CMakeLists.txt */; };
+		B6D5752A86C54B98B4C89677 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/WindowManager.cpp */ = {isa = PBXBuildFile; fileRef = 89DA867774AC42B08E0F52E0 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/WindowManager.cpp */; };
+		B8A4E44FEADF41338A1859AD /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Audio.cpp */ = {isa = PBXBuildFile; fileRef = 5CF769E1EF444754BC7167C1 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Audio.cpp */; };
+		BB51DEE237F140168668AC66 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Program.cpp */ = {isa = PBXBuildFile; fileRef = 4F77348EDB9E4432B0069338 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Program.cpp */; };
+		C085B85F110845C0B62110B4 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = B1F443C6899A47DBB3A84B34 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_time.c */; };
+		C3AEDED3D1C543C281B20189 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 9A6EA30008304E80A120E093 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_window.m */; };
+		D1A75CD204544092B9C03784 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/MatrixStack.cpp */ = {isa = PBXBuildFile; fileRef = 58712018EA064AE7AACE2C85 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/MatrixStack.cpp */; };
+		D3CAC70423F04606A38D8535 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/MatrixStack.h */ = {isa = PBXBuildFile; fileRef = 1A7A5E9C67C3451EB49B34E2 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/MatrixStack.h */; };
+		D81810B802C346A08F49B64A /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/camera.h */ = {isa = PBXBuildFile; fileRef = C8F3644B171D49FFA6A5DAFE /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/camera.h */; };
+		D95BF1885F3F488D88095119 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/tiny_obj_loader.h */ = {isa = PBXBuildFile; fileRef = 46F0A0B2D69142AD8CA65A29 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/tiny_obj_loader.h */; };
+		DA83936C470B4B4EA370F031 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include/KHR/khrplatform.h */ = {isa = PBXBuildFile; fileRef = 90D53B4794884580A813BC45 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include/KHR/khrplatform.h */; };
+		E0E331D50CE344A69CA25CDF /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Shape.cpp */ = {isa = PBXBuildFile; fileRef = CB62826243CB484AA9B13E5D /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Shape.cpp */; };
+		ED0723FFA9FF4A49958CEFDE /* /usr/local/Cellar/glfw-3.2.1/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 0F47786F7BF844DF977B51B0 /* /usr/local/Cellar/glfw-3.2.1/src/posix_tls.c */; };
+		F15565A680CF43A8A4F33B50 /* /usr/local/Cellar/glfw-3.2.1/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 08999E2D78A94F5EA06DA0DF /* /usr/local/Cellar/glfw-3.2.1/src/vulkan.c */; };
+		F88E11E747884C378CB67ABC /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/main.cpp */ = {isa = PBXBuildFile; fileRef = FD39BFFAF11E45B9A8C09B4E /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/main.cpp */; };
+		F946B9232FD5443B859FE1A1 /* /usr/local/Cellar/glfw-3.2.1/src/init.c */ = {isa = PBXBuildFile; fileRef = 2ADC70FAC0C6483C8FE95827 /* /usr/local/Cellar/glfw-3.2.1/src/init.c */; };
+		FB3F9333BBAC46ABADADD0AA /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 5A1EC8E75CE6420F88432F1F /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_monitor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		9D73245970974374BC3580EE /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9DDD6FAA294743698894B474 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		BACF82A5929F406AA9D6E1EB /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		EBE4E46CBAA1416EB60429B8 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1602E954A3424EE998DAD571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2089725EF6BE4DC5ADA9CFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93A3D40A2D07400AA4FB9EFC;
+			remoteInfo = ZERO_CHECK;
+		};
+		49DDE0507A6D450C94298BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2089725EF6BE4DC5ADA9CFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93A3D40A2D07400AA4FB9EFC;
+			remoteInfo = ZERO_CHECK;
+		};
+		6AC678B5934845B19FDAADEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2089725EF6BE4DC5ADA9CFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD7AD06541EF42DFBC5F5218;
+			remoteInfo = glfw;
+		};
+		95EE52B5E9444F6AA5121003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2089725EF6BE4DC5ADA9CFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67164E938C4F4ED3BC0D0779;
+			remoteInfo = ALL_BUILD;
+		};
+		B7B10D10D5884B038D1E414D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2089725EF6BE4DC5ADA9CFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD7AD06541EF42DFBC5F5218;
+			remoteInfo = glfw;
+		};
+		C06BEC012EAB403888E53E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2089725EF6BE4DC5ADA9CFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93A3D40A2D07400AA4FB9EFC;
+			remoteInfo = ZERO_CHECK;
+		};
+		F0B2C5AFF36F487A8782BE53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2089725EF6BE4DC5ADA9CFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E7793007E3A4E468A67A411;
+			remoteInfo = objMorphVisualizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013170B1B64A489583BE38F0 /* /usr/local/Cellar/glfw-3.2.1/debug/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../../../../../usr/local/Cellar/glfw-3.2.1/debug/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		05DEF17FD9D6409BBB2AD1B7 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/billboardFrag.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = billboardFrag.glsl; path = resources/billboardFrag.glsl; sourceTree = SOURCE_ROOT; };
+		07B05E6ED6774770B3EEEC45 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/GLSL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLSL.h; path = src/GLSL.h; sourceTree = SOURCE_ROOT; };
+		08999E2D78A94F5EA06DA0DF /* /usr/local/Cellar/glfw-3.2.1/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/vulkan.c"; sourceTree = SOURCE_ROOT; };
+		0F47786F7BF844DF977B51B0 /* /usr/local/Cellar/glfw-3.2.1/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/posix_tls.c"; sourceTree = SOURCE_ROOT; };
+		10D4D24FA2DD4504BD07D052 /* /usr/local/Cellar/glfw-3.2.1/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/monitor.c"; sourceTree = SOURCE_ROOT; };
+		11F8CFF6FF4045DFAD90193B /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		12060BD9ADD7494786CDDB8C /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Audio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Audio.h; path = src/Audio.h; sourceTree = SOURCE_ROOT; };
+		12C09597C63B4701BC91B555 /* /usr/local/Cellar/glfw-3.2.1/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/internal.h"; sourceTree = SOURCE_ROOT; };
+		141804453FF64298AF40BF27 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/cocoa_platform.h"; sourceTree = SOURCE_ROOT; };
+		1A7A5E9C67C3451EB49B34E2 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/MatrixStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatrixStack.h; path = src/MatrixStack.h; sourceTree = SOURCE_ROOT; };
+		1FB7973AFA9C4470971505E9 /* /usr/local/Cellar/glfw-3.2.1/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "../../../../../usr/local/Cellar/glfw-3.2.1/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		20B25CEB9B5E40D8861BD682 /* /usr/local/Cellar/glfw-3.2.1/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		29BF04F6243941BF8355C62F /* /usr/local/Cellar/glfw-3.2.1/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/posix_tls.h"; sourceTree = SOURCE_ROOT; };
+		2ADC70FAC0C6483C8FE95827 /* /usr/local/Cellar/glfw-3.2.1/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/init.c"; sourceTree = SOURCE_ROOT; };
+		39D5001369AB4265AC4BC3CD /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = src/stb_image.h; sourceTree = SOURCE_ROOT; };
+		44DC78A7FBC448ECA33E77EB /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/cocoa_joystick.m"; sourceTree = SOURCE_ROOT; };
+		46F0A0B2D69142AD8CA65A29 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/tiny_obj_loader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiny_obj_loader.h; path = src/tiny_obj_loader.h; sourceTree = SOURCE_ROOT; };
+		474A8A8E857B4E06BF949FE6 /* /usr/local/Cellar/glfw-3.2.1/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = "../../../../../usr/local/Cellar/glfw-3.2.1/include/GLFW/glfw3native.h"; sourceTree = SOURCE_ROOT; };
+		4AFAB6D3B7BC4E719A15D4D3 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/billboardGeom.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = billboardGeom.glsl; path = resources/billboardGeom.glsl; sourceTree = SOURCE_ROOT; };
+		4F35C36105F54B6F88CAEEC7 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4F77348EDB9E4432B0069338 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Program.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Program.cpp; path = src/Program.cpp; sourceTree = SOURCE_ROOT; };
+		58712018EA064AE7AACE2C85 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/MatrixStack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MatrixStack.cpp; path = src/MatrixStack.cpp; sourceTree = SOURCE_ROOT; };
+		587EEA4A171A4C30B6ABB348 /* /usr/local/Cellar/glfw-3.2.1/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/nsgl_context.m"; sourceTree = SOURCE_ROOT; };
+		5A1EC8E75CE6420F88432F1F /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/cocoa_monitor.m"; sourceTree = SOURCE_ROOT; };
+		5CF769E1EF444754BC7167C1 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Audio.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Audio.cpp; path = src/Audio.cpp; sourceTree = SOURCE_ROOT; };
+		613AE26F17FA4A0A923ED225 /* objMorphVisualizer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = objMorphVisualizer; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF61F39150A48E09A166D30 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include/glad/glad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glad.h; path = ext/glad/include/glad/glad.h; sourceTree = SOURCE_ROOT; };
+		712A680158C547EA99CED487 /* /usr/local/Cellar/glfw-3.2.1/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/context.c"; sourceTree = SOURCE_ROOT; };
+		888A98E81CEC4B9C9B367961 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Shape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Shape.h; path = src/Shape.h; sourceTree = SOURCE_ROOT; };
+		89DA867774AC42B08E0F52E0 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/WindowManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WindowManager.cpp; path = src/WindowManager.cpp; sourceTree = SOURCE_ROOT; };
+		90D53B4794884580A813BC45 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include/KHR/khrplatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = khrplatform.h; path = ext/glad/include/KHR/khrplatform.h; sourceTree = SOURCE_ROOT; };
+		98CF036F23D7497C89318622 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Program.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Program.h; path = src/Program.h; sourceTree = SOURCE_ROOT; };
+		9A6EA30008304E80A120E093 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/cocoa_window.m"; sourceTree = SOURCE_ROOT; };
+		9A85E827FBC8498384E8C19D /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/objectFrag.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = objectFrag.glsl; path = resources/objectFrag.glsl; sourceTree = SOURCE_ROOT; };
+		9FB36F6DFBC8441CA27FBFFF /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/objectVert.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = objectVert.glsl; path = resources/objectVert.glsl; sourceTree = SOURCE_ROOT; };
+		A7BEB64FE34E4364ADA30A25 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/WindowManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = WindowManager.h; path = src/WindowManager.h; sourceTree = SOURCE_ROOT; };
+		AACFF17BE4A742BF871CF38F /* /usr/local/Cellar/glfw-3.2.1/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/input.c"; sourceTree = SOURCE_ROOT; };
+		AD43DC3CD1B1456D8130FCE8 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C16D5D9F954D91AE30968A /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/cocoa_init.m"; sourceTree = SOURCE_ROOT; };
+		B1F443C6899A47DBB3A84B34 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/cocoa_time.c"; sourceTree = SOURCE_ROOT; };
+		B3E79D5675A9493391136299 /* /usr/local/Cellar/glfw-3.2.1/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/nsgl_context.h"; sourceTree = SOURCE_ROOT; };
+		B4BF5572E3CF4F2B890B7860 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/GLSL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLSL.cpp; path = src/GLSL.cpp; sourceTree = SOURCE_ROOT; };
+		C243FC9B66E84ED9A064BF91 /* /usr/local/Cellar/glfw-3.2.1/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/window.c"; sourceTree = SOURCE_ROOT; };
+		C8F3644B171D49FFA6A5DAFE /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = camera.h; path = src/camera.h; sourceTree = SOURCE_ROOT; };
+		CB62826243CB484AA9B13E5D /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Shape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shape.cpp; path = src/Shape.cpp; sourceTree = SOURCE_ROOT; };
+		D4F6813A786A47DA89FE81CE /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/src/glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = ext/glad/src/glad.c; sourceTree = SOURCE_ROOT; };
+		DBE0F12456F94094A93E8D77 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/billboardVert.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = billboardVert.glsl; path = resources/billboardVert.glsl; sourceTree = SOURCE_ROOT; };
+		ECBD0E8347A44CC3A700E423 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = "../../../../../usr/local/Cellar/glfw-3.2.1/src/cocoa_joystick.h"; sourceTree = SOURCE_ROOT; };
+		F052364590F04E55B204C595 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FD39BFFAF11E45B9A8C09B4E /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		FE265542B543460C8F4AA007 /* /usr/local/Cellar/glfw-3.2.1/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = "../../../../../usr/local/Cellar/glfw-3.2.1/include/GLFW/glfw3.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00724F08F4084B3096872F3C /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				ECC761B34F79498CBA23E6F5 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		21D2B896BDF74F629EAE0E84 = {
+			isa = PBXGroup;
+			children = (
+				2A9419FEE69E4202B1F7247A /* objMorphVisualizer */,
+				81774BBB86F54AD89D0AE1B5 /* ALL_BUILD */,
+				B8EC04D7FC2D45B58CAFD294 /* ZERO_CHECK */,
+				61EFEDBE741E45AF92D0F459 /* uninstall */,
+				00724F08F4084B3096872F3C /* GLFW3 */,
+				6C83C39C396549FFBFE7E51B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A9419FEE69E4202B1F7247A /* objMorphVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				3513E5E2744A4EFBBFD6527C /* Source Files */,
+				7AD6CDF3274248A5988BFD39 /* Header Files */,
+				11F8CFF6FF4045DFAD90193B /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/CMakeLists.txt */,
+				05DEF17FD9D6409BBB2AD1B7 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/billboardFrag.glsl */,
+				4AFAB6D3B7BC4E719A15D4D3 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/billboardGeom.glsl */,
+				DBE0F12456F94094A93E8D77 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/billboardVert.glsl */,
+				9A85E827FBC8498384E8C19D /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/objectFrag.glsl */,
+				9FB36F6DFBC8441CA27FBFFF /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/resources/objectVert.glsl */,
+			);
+			name = objMorphVisualizer;
+			sourceTree = "<group>";
+		};
+		3513E5E2744A4EFBBFD6527C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4F6813A786A47DA89FE81CE /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/src/glad.c */,
+				5CF769E1EF444754BC7167C1 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Audio.cpp */,
+				B4BF5572E3CF4F2B890B7860 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/GLSL.cpp */,
+				58712018EA064AE7AACE2C85 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/MatrixStack.cpp */,
+				4F77348EDB9E4432B0069338 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Program.cpp */,
+				CB62826243CB484AA9B13E5D /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Shape.cpp */,
+				89DA867774AC42B08E0F52E0 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/WindowManager.cpp */,
+				FD39BFFAF11E45B9A8C09B4E /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		59B7020FE08241608C288A25 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				013170B1B64A489583BE38F0 /* /usr/local/Cellar/glfw-3.2.1/debug/src/glfw_config.h */,
+				FE265542B543460C8F4AA007 /* /usr/local/Cellar/glfw-3.2.1/include/GLFW/glfw3.h */,
+				474A8A8E857B4E06BF949FE6 /* /usr/local/Cellar/glfw-3.2.1/include/GLFW/glfw3native.h */,
+				ECBD0E8347A44CC3A700E423 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_joystick.h */,
+				141804453FF64298AF40BF27 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_platform.h */,
+				12C09597C63B4701BC91B555 /* /usr/local/Cellar/glfw-3.2.1/src/internal.h */,
+				B3E79D5675A9493391136299 /* /usr/local/Cellar/glfw-3.2.1/src/nsgl_context.h */,
+				29BF04F6243941BF8355C62F /* /usr/local/Cellar/glfw-3.2.1/src/posix_tls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		61EFEDBE741E45AF92D0F459 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				A997A393BFEE4A31B7AC29FA /* CMake Rules */,
+				1FB7973AFA9C4470971505E9 /* /usr/local/Cellar/glfw-3.2.1/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		660AD49B447A4679875BE71D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6C83C39C396549FFBFE7E51B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				613AE26F17FA4A0A923ED225 /* objMorphVisualizer */,
+				AD43DC3CD1B1456D8130FCE8 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AD6CDF3274248A5988BFD39 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				90D53B4794884580A813BC45 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include/KHR/khrplatform.h */,
+				6EF61F39150A48E09A166D30 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include/glad/glad.h */,
+				12060BD9ADD7494786CDDB8C /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Audio.h */,
+				07B05E6ED6774770B3EEEC45 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/GLSL.h */,
+				1A7A5E9C67C3451EB49B34E2 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/MatrixStack.h */,
+				98CF036F23D7497C89318622 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Program.h */,
+				888A98E81CEC4B9C9B367961 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Shape.h */,
+				A7BEB64FE34E4364ADA30A25 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/WindowManager.h */,
+				C8F3644B171D49FFA6A5DAFE /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/camera.h */,
+				39D5001369AB4265AC4BC3CD /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/stb_image.h */,
+				46F0A0B2D69142AD8CA65A29 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/tiny_obj_loader.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		81774BBB86F54AD89D0AE1B5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				660AD49B447A4679875BE71D /* CMake Rules */,
+				4F35C36105F54B6F88CAEEC7 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A997A393BFEE4A31B7AC29FA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B8EC04D7FC2D45B58CAFD294 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				E5F4DEBAF45647CF814038E2 /* CMake Rules */,
+				F052364590F04E55B204C595 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		E5F4DEBAF45647CF814038E2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E94E68C2643A4C5B9A62C8B9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0C16D5D9F954D91AE30968A /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_init.m */,
+				44DC78A7FBC448ECA33E77EB /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_joystick.m */,
+				5A1EC8E75CE6420F88432F1F /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_monitor.m */,
+				B1F443C6899A47DBB3A84B34 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_time.c */,
+				9A6EA30008304E80A120E093 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_window.m */,
+				712A680158C547EA99CED487 /* /usr/local/Cellar/glfw-3.2.1/src/context.c */,
+				2ADC70FAC0C6483C8FE95827 /* /usr/local/Cellar/glfw-3.2.1/src/init.c */,
+				AACFF17BE4A742BF871CF38F /* /usr/local/Cellar/glfw-3.2.1/src/input.c */,
+				10D4D24FA2DD4504BD07D052 /* /usr/local/Cellar/glfw-3.2.1/src/monitor.c */,
+				587EEA4A171A4C30B6ABB348 /* /usr/local/Cellar/glfw-3.2.1/src/nsgl_context.m */,
+				0F47786F7BF844DF977B51B0 /* /usr/local/Cellar/glfw-3.2.1/src/posix_tls.c */,
+				08999E2D78A94F5EA06DA0DF /* /usr/local/Cellar/glfw-3.2.1/src/vulkan.c */,
+				C243FC9B66E84ED9A064BF91 /* /usr/local/Cellar/glfw-3.2.1/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		ECC761B34F79498CBA23E6F5 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				E94E68C2643A4C5B9A62C8B9 /* Source Files */,
+				59B7020FE08241608C288A25 /* Header Files */,
+				20B25CEB9B5E40D8861BD682 /* /usr/local/Cellar/glfw-3.2.1/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E7793007E3A4E468A67A411 /* objMorphVisualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF4651C1F4242E980B1DF76 /* Build configuration list for PBXNativeTarget "objMorphVisualizer" */;
+			buildPhases = (
+				ECECFFFFD4F84D0E85643F7F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				224EB1213C8048AE8D6E2310 /* PBXTargetDependency */,
+				97FDEAC493D8454FAA12F550 /* PBXTargetDependency */,
+			);
+			name = objMorphVisualizer;
+			productName = objMorphVisualizer;
+			productReference = 613AE26F17FA4A0A923ED225 /* objMorphVisualizer */;
+			productType = "com.apple.product-type.tool";
+		};
+		DD7AD06541EF42DFBC5F5218 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6131351FC143E7AF85EEDD /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				D2572B1C08A44CCE924CEADB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8C535394042417C8398AED1 /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = AD43DC3CD1B1456D8130FCE8 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2089725EF6BE4DC5ADA9CFE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 1598B2569E774A608AD8AE59 /* Build configuration list for PBXProject "objMorphVisualizer" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				BACF82A5929F406AA9D6E1EB /* Debug */,
+				9D73245970974374BC3580EE /* Release */,
+				9DDD6FAA294743698894B474 /* MinSizeRel */,
+				EBE4E46CBAA1416EB60429B8 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 21D2B896BDF74F629EAE0E84;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				67164E938C4F4ED3BC0D0779 /* ALL_BUILD */,
+				93A3D40A2D07400AA4FB9EFC /* ZERO_CHECK */,
+				6BB0B33BE2D44BA68A4588F6 /* install */,
+				4E7793007E3A4E468A67A411 /* objMorphVisualizer */,
+				48368B9DC8B34903BDA85D62 /* uninstall */,
+				DD7AD06541EF42DFBC5F5218 /* glfw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7883E498DE6A4492A5303831 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7A856E27C1044F099926C3D6 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dominictsoi/Desktop/CPE\\ _400_Music_Visualizer/objMorphVisualizer/build -f /Users/dominictsoi/Desktop/CPE\\ _400_Music_Visualizer/objMorphVisualizer/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9195E07C3B7C4A30B6735240 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9F268C9E439744CF9B5673C1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A4C4B22ED16C44B384EC503D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dominictsoi/Desktop/CPE\\ _400_Music_Visualizer/objMorphVisualizer/build -f /Users/dominictsoi/Desktop/CPE\\ _400_Music_Visualizer/objMorphVisualizer/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B418F20DE9874FEEAFCB485B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F35C26BC79AB4BC39E8F6904 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /usr/local/Cellar/glfw-3.2.1/debug -f /usr/local/Cellar/glfw-3.2.1/debug/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F8D57A22933D4379BD5287F4 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dominictsoi/Desktop/CPE\\ _400_Music_Visualizer/objMorphVisualizer/build -f /Users/dominictsoi/Desktop/CPE\\ _400_Music_Visualizer/objMorphVisualizer/build/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2572B1C08A44CCE924CEADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C762EFD29D741E38A7B5614 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_init.m */,
+				AAEB22647E3E4494A6898DCB /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_joystick.m */,
+				FB3F9333BBAC46ABADADD0AA /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_monitor.m */,
+				C085B85F110845C0B62110B4 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_time.c */,
+				C3AEDED3D1C543C281B20189 /* /usr/local/Cellar/glfw-3.2.1/src/cocoa_window.m */,
+				948810677DE645E0871BA959 /* /usr/local/Cellar/glfw-3.2.1/src/context.c */,
+				F946B9232FD5443B859FE1A1 /* /usr/local/Cellar/glfw-3.2.1/src/init.c */,
+				A17EB19545E54042B7AE1FB7 /* /usr/local/Cellar/glfw-3.2.1/src/input.c */,
+				3BC781F341D944888CD9966A /* /usr/local/Cellar/glfw-3.2.1/src/monitor.c */,
+				818C78CC987F4A51B90F7966 /* /usr/local/Cellar/glfw-3.2.1/src/nsgl_context.m */,
+				ED0723FFA9FF4A49958CEFDE /* /usr/local/Cellar/glfw-3.2.1/src/posix_tls.c */,
+				F15565A680CF43A8A4F33B50 /* /usr/local/Cellar/glfw-3.2.1/src/vulkan.c */,
+				568794B281234D19A6453948 /* /usr/local/Cellar/glfw-3.2.1/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECECFFFFD4F84D0E85643F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E288FEEC3A42248DACCA52 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/src/glad.c */,
+				B8A4E44FEADF41338A1859AD /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Audio.cpp */,
+				A81EDDDA715F47408BBFBD40 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/GLSL.cpp */,
+				D1A75CD204544092B9C03784 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/MatrixStack.cpp */,
+				BB51DEE237F140168668AC66 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Program.cpp */,
+				E0E331D50CE344A69CA25CDF /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/Shape.cpp */,
+				B6D5752A86C54B98B4C89677 /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/WindowManager.cpp */,
+				F88E11E747884C378CB67ABC /* /Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0659FE54A38C4DDA852D681E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD7AD06541EF42DFBC5F5218 /* glfw */;
+			targetProxy = 6AC678B5934845B19FDAADEB /* PBXContainerItemProxy */;
+		};
+		224EB1213C8048AE8D6E2310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93A3D40A2D07400AA4FB9EFC /* ZERO_CHECK */;
+			targetProxy = 1602E954A3424EE998DAD571 /* PBXContainerItemProxy */;
+		};
+		3B0C644BFCBA4514A03FA80D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67164E938C4F4ED3BC0D0779 /* ALL_BUILD */;
+			targetProxy = 95EE52B5E9444F6AA5121003 /* PBXContainerItemProxy */;
+		};
+		97FDEAC493D8454FAA12F550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD7AD06541EF42DFBC5F5218 /* glfw */;
+			targetProxy = B7B10D10D5884B038D1E414D /* PBXContainerItemProxy */;
+		};
+		A29B9D2A9ED54DD6A80AEAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93A3D40A2D07400AA4FB9EFC /* ZERO_CHECK */;
+			targetProxy = 49DDE0507A6D450C94298BD8 /* PBXContainerItemProxy */;
+		};
+		B3696855431D48FF9B123275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E7793007E3A4E468A67A411 /* objMorphVisualizer */;
+			targetProxy = F0B2C5AFF36F487A8782BE53 /* PBXContainerItemProxy */;
+		};
+		B8C535394042417C8398AED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93A3D40A2D07400AA4FB9EFC /* ZERO_CHECK */;
+			targetProxy = C06BEC012EAB403888E53E7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EE749874228419CBAE2FBE1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Users/dominictsoi/Desktop/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build/build";
+			};
+			name = MinSizeRel;
+		};
+		136F28A52DAC40F6B863442A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/Cellar/glfw-3.2.1/debug/src/Release/libglfw3.a -framework OpenGL -framework OpenAL -framework Cocoa -framework IOKit -framework CoreVideo -framework Accelerate -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = objMorphVisualizer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2F9C6E907EA541018ED1FB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include","/usr/local/Cellar/glfw-3.2.1/src","/usr/local/Cellar/glfw-3.2.1/debug/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/usr/local/Cellar/glfw-3.2.1/debug/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3105B6387BF54AF9BF2476B5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		38211613366B4094AB041AD6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/usr/local/Cellar/glfw-3.2.1/debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		49E1A12DB1A94F67B6A41F1A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		59CBDFAA11334EDCA009CD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		68E832D583FA497A9D7D8368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		69A795AD9057494EA467F3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Users/dominictsoi/Desktop/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build/build";
+			};
+			name = Release;
+		};
+		7274364650854F73BC872148 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include","/usr/local/Cellar/glfw-3.2.1/src","/usr/local/Cellar/glfw-3.2.1/debug/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/usr/local/Cellar/glfw-3.2.1/debug/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7992FBBF17E643F48D54E82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/usr/local/Cellar/glfw-3.2.1/debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7DCE27C42BDB453289737C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		91A6D88FC97D4287BB4D5A94 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Users/dominictsoi/Desktop/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		A51E28B77ABD4EEA896E337E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/usr/local/Cellar/glfw-3.2.1/debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B194E0278E9C4338807E63E1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BDBC983C9A394C899A1EA7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BE9E2A2615AC4F77BDB10861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/usr/local/Cellar/glfw-3.2.1/debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C79DE1B3F2ED4CCF984C9021 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/Cellar/glfw-3.2.1/debug/src/MinSizeRel/libglfw3.a -framework OpenGL -framework OpenAL -framework Cocoa -framework IOKit -framework CoreVideo -framework Accelerate -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = objMorphVisualizer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CDBCDE2D2A2C425486F0A2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/Cellar/glfw-3.2.1/debug/src/Debug/libglfw3.a -framework OpenGL -framework OpenAL -framework Cocoa -framework IOKit -framework CoreVideo -framework Accelerate -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = objMorphVisualizer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CF5D726E4CC24A1B993F85BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CF7A416D63BD4B7A871B63BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include","/usr/local/Cellar/glfw-3.2.1/src","/usr/local/Cellar/glfw-3.2.1/debug/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/usr/local/Cellar/glfw-3.2.1/debug/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D21DD52015E04C62A50A71DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Users/dominictsoi/Desktop/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build/build";
+			};
+			name = Debug;
+		};
+		D4EAAADA4EC24F6BBB158659 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D8B0B886481E476FB95B8DD9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include","/usr/local/Cellar/glfw-3.2.1/src","/usr/local/Cellar/glfw-3.2.1/debug/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/usr/local/Cellar/glfw-3.2.1/debug/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E28CE866B52840F6BCB15BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EAD41335E30C4E05BB21B4B7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FC1BF710CEA24887B9885914 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/Cellar/glfw-3.2.1/debug/src/RelWithDebInfo/libglfw3.a -framework OpenGL -framework OpenAL -framework Cocoa -framework IOKit -framework CoreVideo -framework Accelerate -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = objMorphVisualizer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FF63729B6E80404EAC9BBE35 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/ext/glad/include\"",/usr/local/Cellar/freealut/1.1.0/include,"/usr/local/Cellar/glfw-3.2.1/include",/usr/local/Cellar/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DD89B796A6A4AA0ABEACD35 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CBDFAA11334EDCA009CD5A /* Debug */,
+				68E832D583FA497A9D7D8368 /* Release */,
+				49E1A12DB1A94F67B6A41F1A /* MinSizeRel */,
+				D4EAAADA4EC24F6BBB158659 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1598B2569E774A608AD8AE59 /* Build configuration list for PBXProject "objMorphVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21DD52015E04C62A50A71DB /* Debug */,
+				69A795AD9057494EA467F3C2 /* Release */,
+				0EE749874228419CBAE2FBE1 /* MinSizeRel */,
+				91A6D88FC97D4287BB4D5A94 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		36B918B309344F4E94EEBC9E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5D726E4CC24A1B993F85BB /* Debug */,
+				7DCE27C42BDB453289737C1F /* Release */,
+				B194E0278E9C4338807E63E1 /* MinSizeRel */,
+				3105B6387BF54AF9BF2476B5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		53C84974C22B47C6ADD93168 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7992FBBF17E643F48D54E82E /* Debug */,
+				BE9E2A2615AC4F77BDB10861 /* Release */,
+				A51E28B77ABD4EEA896E337E /* MinSizeRel */,
+				38211613366B4094AB041AD6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		544A0408FDC14A349909788C /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBC983C9A394C899A1EA7D2 /* Debug */,
+				E28CE866B52840F6BCB15BF0 /* Release */,
+				FF63729B6E80404EAC9BBE35 /* MinSizeRel */,
+				EAD41335E30C4E05BB21B4B7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6B6131351FC143E7AF85EEDD /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7A416D63BD4B7A871B63BD /* Debug */,
+				2F9C6E907EA541018ED1FB03 /* Release */,
+				7274364650854F73BC872148 /* MinSizeRel */,
+				D8B0B886481E476FB95B8DD9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CBF4651C1F4242E980B1DF76 /* Build configuration list for PBXNativeTarget "objMorphVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBCDE2D2A2C425486F0A2E2 /* Debug */,
+				136F28A52DAC40F6B863442A /* Release */,
+				C79DE1B3F2ED4CCF984C9021 /* MinSizeRel */,
+				FC1BF710CEA24887B9885914 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2089725EF6BE4DC5ADA9CFE1 /* Project object */;
+}

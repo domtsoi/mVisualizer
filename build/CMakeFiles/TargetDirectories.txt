@@ -1,0 +1,10 @@
+/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build/CMakeFiles/install.dir
+/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build/CMakeFiles/objMorphVisualizer.dir
+/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build/CMakeFiles/ALL_BUILD.dir
+/Users/dominictsoi/Desktop/CPE _400_Music_Visualizer/objMorphVisualizer/build/CMakeFiles/ZERO_CHECK.dir
+/usr/local/Cellar/glfw-3.2.1/debug/CMakeFiles/install.dir
+/usr/local/Cellar/glfw-3.2.1/debug/CMakeFiles/uninstall.dir
+/usr/local/Cellar/glfw-3.2.1/debug/CMakeFiles/ALL_BUILD.dir
+/usr/local/Cellar/glfw-3.2.1/debug/CMakeFiles/ZERO_CHECK.dir
+/usr/local/Cellar/glfw-3.2.1/debug/src/CMakeFiles/install.dir
+/usr/local/Cellar/glfw-3.2.1/debug/src/CMakeFiles/glfw.dir
